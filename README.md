@@ -5,7 +5,7 @@
 - [ ] Lists
 - [ ] Forward List
 - [x] Queue
-- [ ] Deque
+- [x] Deque
 - [ ] Priority Queue
 - [x] Stack
 - [ ] Set
@@ -67,6 +67,65 @@
 * back()
 * push()
 * pop()
+
+## Deque
+### Functions
+* insert(iterator, value)
+* push_front()
+* push_back()
+* pop_front()
+* pop_back()
+* clear()
+* erase()
+* begin()
+* end()
+
+## Priority Queue
+### Comparator
+```c++
+#include <iostream>
+#include <queue>
+#include <vector>
+using namespace std;
+
+struct CustomComparator
+{
+    bool operator()(const pair<int, int> &p1, const pair<int, int> &p2)
+    {
+        return p1.second < p2.second;
+    }
+};
+
+int main()
+{
+    priority_queue<pair<int, int>, vector<pair<int, int>>, CustomComparator> pq;
+
+    pq.push({1, 10});
+    pq.push({2, 5});
+    pq.push({3, 20});
+    pq.push({4, 15});
+
+    cout << "Custom Comparator Priority Queue: ";
+    while (!pq.empty())
+    {
+        pair<int, int> p = pq.top();
+        cout << "(" << p.first << ", " << p.second << ") ";
+        pq.pop();
+    }
+
+    return 0;
+}
+```
+
+### Functions
+* priority_queue<int, vector<int>, greater<int>> pq;
+* empty()
+* size()
+* top()
+* push()
+* pop()
+
+
 
 ## Map
 ### Creating a Map
