@@ -1,23 +1,23 @@
 # STL
-* Containers
-* Array
-* Vectors
-* Lists
-* Forward List
-* Queue
-* Deque
-* Priority Queue
-* Stack
-* Set
-* Multimap
-* Multiset
-* Unordered Map
-* Unordered Set
-* Unordered Multiset
-* Unordered Multimap
-* Iterators
-* Algorithms
-* Functor
+[] Containers
+[] Array
+[] Vectors
+[] Lists
+[] Forward List
+[] Queue
+[] Deque
+[] Priority Queue
+[] Stack
+[] Set
+[] Multimap
+[] Multiset
+[] Unordered Map
+[] Unordered Set
+[] Unordered Multiset
+[] Unordered Multimap
+[] Iterators
+[] Algorithms
+[] Functor
 
 ## Array
 ### Functions: 
@@ -50,8 +50,6 @@
 * erase(iterator)
 * clear()
 
-
-
 ## Stack 
 ### Functions: 
 * push() - adds element to the stack - O(1)
@@ -59,6 +57,15 @@
 * top() - Returns the element at the top - O(1)
 * size() - Returns the number of elements in the stack - O(1)
 * empty() - Returns true if the stack is empty - O(1)
+
+## Queue
+### Functions
+* empty()
+* size()
+* front()
+* back()
+* push()
+* pop()
 
 ## Map
 ### Creating a Map
