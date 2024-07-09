@@ -19,7 +19,40 @@
 * Algorithms
 * Functor
 
-## Stack STL
+## Array
+### Functions: 
+* at(i) / \[i]
+* front()
+* back()
+* size()
+* fill(element)
+* empty()
+* swap(array_name)
+* data() - first element
+
+### Vector
+### Iterators
+* begin()
+* end()
+* rbegin()
+* rend()
+### Capacity
+* size()
+* empty()
+### Element Access
+* at()
+* front()
+* back()
+### Modifiers
+* push_back()
+* pop_back()
+* insert(iterator, value)
+* erase(iterator)
+* clear()
+
+
+
+## Stack 
 ### Functions: 
 * push() - adds element to the stack - O(1)
 * pop() - Removes an element from the stack - O(1)
