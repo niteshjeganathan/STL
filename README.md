@@ -1,15 +1,16 @@
 # STL
 - [ ] Containers
-- [ ] Array
-- [ ] Vectors
+- [x] Array
+- [x] Vectors
 - [ ] Lists
 - [ ] Forward List
-- [ ] Queue
+- [x] Queue
 - [ ] Deque
 - [ ] Priority Queue
-- [ ] Stack
+- [x] Stack
 - [ ] Set
 - [ ] Multimap
+- [x] Map
 - [ ] Multiset
 - [ ] Unordered Map
 - [ ] Unordered Set
