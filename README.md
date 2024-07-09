@@ -31,7 +31,7 @@
 * swap(array_name)
 * data() - first element
 
-### Vector
+## Vector
 ### Iterators
 * begin()
 * end()
