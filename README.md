@@ -1,23 +1,23 @@
 # STL
-[] Containers
-[] Array
-[] Vectors
-[] Lists
-[] Forward List
-[] Queue
-[] Deque
-[] Priority Queue
-[] Stack
-[] Set
-[] Multimap
-[] Multiset
-[] Unordered Map
-[] Unordered Set
-[] Unordered Multiset
-[] Unordered Multimap
-[] Iterators
-[] Algorithms
-[] Functor
+- [ ] Containers
+- [ ] Array
+- [ ] Vectors
+- [ ] Lists
+- [ ] Forward List
+- [ ] Queue
+- [ ] Deque
+- [ ] Priority Queue
+- [ ] Stack
+- [ ] Set
+- [ ] Multimap
+- [ ] Multiset
+- [ ] Unordered Map
+- [ ] Unordered Set
+- [ ] Unordered Multiset
+- [ ] Unordered Multimap
+- [ ] Iterators
+- [ ] Algorithms
+- [ ] Functor
 
 ## Array
 ### Functions: 
