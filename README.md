@@ -6,7 +6,7 @@
 - [ ] Forward List
 - [x] Queue
 - [x] Deque
-- [ ] Priority Queue
+- [x] Priority Queue
 - [x] Stack
 - [ ] Set
 - [ ] Multimap
