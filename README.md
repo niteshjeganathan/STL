@@ -2,8 +2,8 @@
 - [ ] Containers
 - [x] Array
 - [x] Vectors
-- [ ] Lists
-- [ ] Forward List
+- [x] Lists
+- [x] Forward List
 - [x] Queue
 - [x] Deque
 - [x] Priority Queue
@@ -124,6 +124,44 @@ int main()
 * top()
 * push()
 * pop()
+
+## List
+### Functions
+* front()
+* back()
+* push_front()
+* push_back()
+* pop_front()
+* push_front()
+* begin()
+* end()
+* empty()
+* insert(iterator, value)
+* assign(value, repititions)
+* reverse()
+* erase()
+* sort()
+* unique() - removes consecutive repeating values
+* merge()
+* clear()
+
+## Forward List
+* assign()
+* push_front()
+* pop_front()
+* insert_after()
+* erase_after()
+* remove()
+* clear()
+* front()
+* begin()
+* end()
+* unique()
+* reverse()
+* merge()
+* sort()
+
+
 
 
 
