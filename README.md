@@ -8,12 +8,12 @@
 - [x] Deque
 - [x] Priority Queue
 - [x] Stack
-- [ ] Set
+- [x] Set
 - [ ] Multimap
 - [x] Map
-- [ ] Multiset
+- [x] Multiset
 - [ ] Unordered Map
-- [ ] Unordered Set
+- [x] Unordered Set
 - [ ] Unordered Multiset
 - [ ] Unordered Multimap
 - [ ] Iterators
@@ -186,3 +186,37 @@ map.insert(make_pair('nitesh', 'jeganathan'));
 * empty()
 * count() - Gives count of key repititions
 
+### Set
+* Set
+  * Stores values in sorted order
+  * Stores only unique values
+  * Elements can only be inserted or deleted, can't be modified
+  * Can erase a range of iterators
+  * Traversal using iterators
+  * Sets are implemented as binary search trees
+* Multiset
+  * Stores values in sorted order
+  * Allows storage of duplicate elements
+  * Can erase a range of iterators
+* Unordered Set
+  * No sorted order
+  * Stores only unique values
+  * Implemented as hash tables
+  * Can erase only the iterator, not a range
+* Unordered Multiset
+  * No sorted order
+  * Stores duplicate values as well
+  * Implemented as hash tables
+  * Can erase only the iterator, not a range
+
+Functions
+* set<int, greater<int>> for decreasing values
+* begin()
+* end()
+* size()
+* empty()
+* insert()
+* erase()
+* clear()
+* find()
+* count()
