@@ -9,13 +9,13 @@
 - [x] Priority Queue
 - [x] Stack
 - [x] Set
-- [ ] Multimap
+- [x] Multimap
 - [x] Map
 - [x] Multiset
-- [ ] Unordered Map
+- [x] Unordered Map
 - [x] Unordered Set
-- [ ] Unordered Multiset
-- [ ] Unordered Multimap
+- [x] Unordered Multiset
+- [x] Unordered Multimap
 - [ ] Iterators
 - [ ] Algorithms
 - [ ] Functor
@@ -220,3 +220,22 @@ Functions
 * clear()
 * find()
 * count()
+
+### Map 
+* Map
+  * Increasing order of keys
+  * Self balancing BST
+  * Log n insertion, searching, deletion + rebalancing if required
+* Unordered Map
+  * No ordering
+  * Hash Table
+  * O(n) insertion, searching, deletion + rebalancing if required
+* Multimap
+  * Increasing order of keys
+  * Self Balancing BST
+  * Allows duplicate keys to be inserted
+* Unordered Multimap
+  * No ordering
+  * Hash Table
+  * Allows duplicate keys to be inserted
+
