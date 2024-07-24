@@ -239,3 +239,27 @@ Functions
   * Hash Table
   * Allows duplicate keys to be inserted
 
+### Iterators
+Functions
+* begin()
+* end()
+* advance() - advances the pointer itself
+* next() - returns the advanced pointer
+* prev() - returns the reduced pointer
+
+Types
+* Input Iterators
+* Output Iterators
+* Forward Iterator
+* BiDirectional Iterator
+* Random-Access Iterator
+
+![image](https://github.com/user-attachments/assets/922aca83-a9b0-4e9f-8858-35ecfcba5769)
+
+#### Input Iterator
+* Single Pass Algorithms
+* Equality/Comparision Operations
+* Deferencing
+* Incrementable
+* Swappable
+* 
