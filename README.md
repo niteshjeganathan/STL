@@ -258,8 +258,22 @@ Types
 
 #### Input Iterator
 * Single Pass Algorithms
-* Equality/Comparision Operations
+* Equality/Inequality Operations
 * Deferencing
 * Incrementable
 * Swappable
-* 
+* Only can access, can't assign
+* Can't be decremented
+* No relational operators
+* No arithmetic operators
+
+#### Output Iterators
+* Single Pass Algorithms
+* Cant check for Equality/Inequality
+* Deferencing
+* Incrementable
+* Swappable
+* Only assigning, can't access
+* Can't be decremented
+* No relational operators
+* No arithmetic operators
